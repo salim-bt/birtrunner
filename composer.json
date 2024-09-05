@@ -1,0 +1,26 @@
+{
+	"name" : "birtrunner",
+	"description" : "Render BIRT reports from PHP",
+	"keywords" : [
+		"birt",
+		"business intelligence",
+		"reporting"
+	],
+	"type" : "library",
+	"minimum-stability" : "dev",
+	"authors" : [{
+			"name" : "NEW EDGE",
+			"email" : "info@newedge.bt", 
+			"role" : "Development"
+		}
+	],
+	"require" : {
+		"symfony/console" : "^5.3"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"BirtRunner\\" : "src/"
+		}
+	},
+	"license" : "MIT"
+}
